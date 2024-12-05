@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini-Blog</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'post_list' %}">Accueil</a>
+        <a href="{% url 'create_post' %}">Créer un article</a>
+    </nav>
+    <hr>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

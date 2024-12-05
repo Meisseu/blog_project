@@ -1,0 +1,14 @@
+# Ignore les fichiers Python compilés
+*.pyc
+
+# Ignore le répertoire __pycache__
+__pycache__/
+
+# Ignore la base de données SQLite si vous l'utilisez (pas nécessaire pour MySQL)
+db.sqlite3
+
+# Ignore le répertoire de migrations (généré par Django)
+migrations/
+
+# Ignore les fichiers d'environnement (par exemple pour les variables d'environnement)
+.env
